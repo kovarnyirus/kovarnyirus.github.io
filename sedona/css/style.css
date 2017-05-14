@@ -1,0 +1,1143 @@
+body {
+  background-color: #f2f2f2;
+  font-size: 14px;
+  line-height: 26px;
+  color: #333;
+  font-weight: bold;
+  font-family: "PT Sans", "Arial", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  max-width: 100%;height: auto;
+}
+
+/* шрифты */
+
+h1 {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 24px;
+  color: #000;
+  font-weight: bold;
+}
+
+.main-reason h2 {
+  padding: 4px 124px 3px 125px;
+  color: #fff;
+}
+
+.main-reason-number {
+  font-size: 14px;
+  line-height: 26px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.main-reason-explain {
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+  font-weight: normal;
+  padding-top: 5px;
+  padding-left: 47px;
+  padding-right: 48px
+}
+
+
+/* index */
+
+.wrapper {
+  background-color: #fff;
+  box-shadow: 0 0 5px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-header {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -69px;
+  z-index: 10;
+  width: 137px;
+  height: 70px;
+}
+
+.main-navigation {
+  padding: 0 72px;
+}
+
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main-navigation li {
+  float: left;
+  list-style: none;
+  text-align: left;
+  width: 20%;
+  padding-top: 13px;
+  padding-bottom: 17px;
+}
+
+.main-navigation li:nth-child(2n) {
+  padding-right: 33px;
+  padding-left: 30px;
+}
+
+.main-navigation li:nth-child(4) {
+  float: right;
+  text-align: right;
+}
+
+.main-navigation li:nth-child(3) {
+  float: right;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: #000
+}
+
+.main-navigation a:hover {
+  color: #81b3d2;
+}
+.main-navigation a:active {
+  color:#b2b2b2;
+}
+.main-menu-active a{
+  color: #766357;
+}
+.main-menu-active a:hover{
+  color: #604e43;
+}
+.main-menu-active a:active{
+  color: #d6d0cc;
+}
+.intro {
+  display: block;
+  background-image: url(../img/background-photo.jpg);
+  min-height: 432px;
+  padding-top: 76px;
+  margin-bottom: 59px;
+  position: relative;
+  background-color: #f4e9e9;
+  color: #000;
+  width: 1200px;
+  height: 508px;
+}
+
+.intro img {
+  display: block;
+  margin: 0 auto;
+}
+
+.to-the-gorgeus {
+  padding-top: 11px;
+}
+
+.Sedona {
+  padding-top: 52px;
+}
+
+.Because-the {
+  padding-top: 56px;
+}
+
+.intro::after {
+  content: "";
+  width: 100%;
+  height: 57px;
+  position: absolute;
+  background: url(../img/bg-footer.png) no-repeat;
+  margin-top: 23px;
+  bottom: 0;
+  left: 0;
+}
+
+.explanation-reasons-title {
+  padding-top: 13px;
+  font-weight: normal;
+}
+
+.explanation-reasons {
+  padding-top: 7px;
+  font-weight: normal;
+  line-height: 21px;
+}
+
+.preface {
+  width: 580px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 52px;
+}
+
+.left-column {
+  width: 400px;
+  float: left;
+  background-color: #81b3d2;
+  padding-top: 32px;
+  padding-bottom: 39px;
+}
+
+.reason-image {
+  background-color: #fff;
+  color: #000;
+  height: 256px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 800px;
+}
+
+.reasons-number {
+  display: block;
+  padding-top: 3px;
+  font-weight: normal;
+}
+
+.features {
+  position: relative;
+  width: 300px;
+  float: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 48px;
+  padding-top: 85px;
+}
+
+.house-image::after {
+  content: "";
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  background-image: url(../img/sprite-sedona.png);
+  background-position: -9px -193px;
+  top: 0;
+  left: 159px;
+}
+
+.foot-image::after {
+  content: "";
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  background-image: url(../img/sprite-sedona.png);
+  background-position: -8px -102px;
+  top: 0;
+  left: 159px;
+}
+
+.souvenirs-image::after {
+  content: "";
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  background-image: url(../img/sprite-sedona.png);
+  background-position: -3px -11px;
+  top: 0;
+  left: 159px;
+}
+
+.features-block {
+  padding-top: 57px;
+  margin-bottom: 21px;
+}
+
+.right-column {
+  width: 400px;
+  float: right;
+  background-color: #81b3d2;
+  padding-top: 34px;
+  padding-bottom: 37px;
+}
+
+.reason {
+  float: left;
+  width: 320px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.reason h2{
+  padding:0 100px;
+}
+
+.reasons-block {
+  padding-top: 30px;
+  background-color: #eeeeee;
+  padding-bottom: 46px;
+  margin-bottom: 56px;
+}
+
+.reasons-explain {
+  padding-top: 5px;
+  line-height: 21px;
+  font-weight: normal;
+  padding-left: 29px;
+  padding-right: 27px;
+}
+
+.interested {
+  margin: 0 auto;
+}
+
+.interested-explain {
+  line-height: 24px;
+  font-weight: normal;
+  width: 500px;
+  margin: 0 auto;
+  padding-bottom: 46px;
+}
+
+
+/*search hotels*/
+
+.search-hotels input[type="datetime"] {
+  width: 346px;
+}
+
+.search-hotel {
+  position: relative;
+  margin: 0 auto;
+  width: 568px;
+}
+
+.search-form {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  width: 460px;
+  padding-left: 54px;
+  padding-right: 54px;
+  z-index: 5;
+}
+@-webkit-keyframes emergence {
+  0% { -webkit-transform: translateY(2000px); transform: translateY(2000px);}
+  70% { -webkit-transform: translateY(90px); transform: translateY(90px);}
+  80% { -webkit-transform: translateY(60px); transform: translateY(60px);}
+  90% { -webkit-transform: translateY(30px); transform: translateY(30px);}
+  100% { -webkit-transform: translateY(0); transform: translateY(0);}
+}
+@keyframes emergence {
+  0% { -webkit-transform: translateY(2000px); transform: translateY(2000px);}
+  70% { -webkit-transform: translateY(90px); transform: translateY(90px);}
+  80% { -webkit-transform: translateY(60px); transform: translateY(60px);}
+  90% { -webkit-transform: translateY(30px); transform: translateY(30px);}
+  100% { -webkit-transform: translateY(0); transform: translateY(0);}
+}
+.search-form-show {
+  display: block;
+  animation: emergence 0.4s;
+}
+.arrive-in::after {
+  content: "";
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  background-image: url(../img/sprite-sedona.png);
+  background-position: -3px -11px;
+}
+
+.search-title {
+  padding: 30px 0;
+  background-color: #766357;
+}
+
+.search-title a {
+  font-size: 21px;
+  line-height: 26px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.date-arrive {
+  position: relative;
+  text-align: left;
+  padding-top: 54px;
+  padding-bottom: 29px;
+}
+
+.date-departure {
+  position: relative;
+  text-align: left;
+  padding-bottom: 29px;
+}
+
+.date-arrive input {
+  margin-left: 21px;
+  border: none;
+  min-height: 36px;
+  background-color: #f2f2f2;
+  width: 292px;
+  text-transform: uppercase;
+  padding-left: 14px;
+  z-index: 24;
+}
+
+.date-arrive input:hover, .date-departure input:hover {
+  background-color: #ebebeb;
+  outline-style: none;
+}
+
+.date-departure input {
+  margin-left: 18px;
+  border: none;
+  min-height: 36px;
+  background-color: #f2f2f2;
+  width: 293px;
+  padding-left: 12px;
+  text-transform: uppercase;
+  z-index: 80;
+}
+.calendar::before{
+  cursor: pointer;
+  content: "";
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  background-image: url(../img/sprite-sedona.png);
+  background-position: -3px -279px;
+  background-color: #f2f2f2;
+  bottom: 29px;
+  right: 3px;
+}
+.calendar:hover::before{
+  background-position: -3px -363px;
+}
+.calendar:active::before{
+  background-position: -3px -321px;
+}
+
+.number-adults {
+  padding-right: 3px;
+  box-sizing: border-box;
+  text-align: left;
+  float: left;
+  min-height: 58px;
+  width: 50%;
+  margin-bottom: 34px;
+  position: relative;
+}
+
+.children {
+  padding-right: 3px;
+  box-sizing: border-box;
+  text-align: left;
+  float: right;
+  width: 50%;
+  min-height: 38px;
+  margin-bottom: 34px;
+  position: relative;
+  padding-left: 48px;
+}
+
+.children input, .number-adults input {
+  border: none;
+  background-color: #f2f2f2;
+  min-height: 36px;
+  text-align: center;
+  width: 38px;
+}
+
+input[type=text]:focus{
+  background-color: #fff;
+  box-shadow: 0 0 0 2px #e5e5e5;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  min-height: 32px;
+}
+
+input[type=date]:focus{
+  background-color: #fff;
+  box-shadow: 0 0 0 2px #e5e5e5;
+  min-height: 32px;
+  margin-bottom: 2px;
+  margin-top:2px;
+}
+
+.btn-plus{
+  position: relative;
+  border: none;
+  width: 38px;
+  height: 38px;
+  float: right;;
+}
+.btn-minus{
+  position: relative;
+  border: none;
+  width: 38px;
+  height: 38px;
+  float: right;;
+}
+.children input{
+  float: right;
+}
+.number-adults input{
+  float: right;
+}
+.btn-minus::after{
+  position: absolute;
+  content: "";
+  background-image: url(../img/sprite-sedona.png);
+  background-position: 4px -642px;
+  top: 0px;
+  right: 0px;
+  width: 38px;
+  height: 38px;
+  background-color: #f2f2f2;
+}
+
+.btn-plus::after{
+  position: absolute;
+  content: "";
+  background-image: url(../img/sprite-sedona.png);
+  background-position: 3px -615px;
+  background-color: #f2f2f2;
+  top: 0px;
+  right: 0px;
+  width: 38px;
+  height: 38px;
+}
+
+.btn-minus:hover::after{
+background-position: 4px -732px;
+}
+
+.btn-minus:active::after{
+  background-position: 4px -822px;
+}
+
+.btn-plus:hover::after{
+background-position: 3px -705px;
+}
+
+.btn-plus:active::after{
+background-position: 3px -795px;
+}
+
+.number-adults-title {
+  display: inline-block;
+  padding-top: 8px;
+  vertical-align:top;
+}
+
+.children-title {
+  display: inline-block;
+  padding-top: 8px;
+  vertical-align:top;
+}
+
+.button-search input {
+  width: 460px;
+  font-size: 21px;
+  margin: 0 auto;
+  margin-bottom: 55px;
+  padding: 15px 0;
+  color: #ffffff;
+  background-color: #81b3d2;
+  border: none
+}
+
+.button-search input:hover {
+  background-color: #669ec0;
+}
+.button-search input:active {
+  background-color: #5496bd;
+  color: #88b6d1;
+}
+
+.map{
+  background-image:url(../img/map.jpg);
+  background-color: #CBE6A3;
+  color: #000;
+}
+/*footer*/
+
+.main-footer {
+  position: relative;
+  min-height: 128px;
+}
+
+.footer-content {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  bottom: 0;
+  width: 1200px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.Hashtag {
+  float: left;
+  width: 400px;
+  text-align: center;
+  font-size: 21px;
+  margin-top: -11px;
+}
+
+.social-ico a {
+  display: block;
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
+}
+
+.social-ico a:hover {
+  display: block;
+  width: 46px;
+  height: 48px;
+  background-color: #669ec0;
+}
+.social-ico a:active {
+  background-color: #5496bd;
+  background-position: 4px -757px;
+}
+
+.social-ico li {
+  float: left;
+  list-style: none;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.social-ico .tw-ico {
+  width: 46px;
+  height: 48px;
+  background-image: url(../img/sprite-sedona.png);
+  background-position: 5px -1222px;
+}
+.social-ico .tw-ico:active {
+  background-position: 5px -1256px;
+}
+
+.social-ico .fb-ico {
+  width: 46px;
+  height: 48px;
+  background-image: url(../img/sprite-sedona.png);
+  background-position: 7px -1027px;
+}
+.social-ico .fb-ico:active{
+  background-position: 7px -1105px;
+}
+
+.social-ico .yt-ico {
+  width: 46px;
+  height: 48px;
+  background-image: url(../img/sprite-sedona.png);
+  background-position: 4px -668px;
+}
+.social-ico .yt-ico:active {
+  background-position: 4px -758px;
+}
+.social-ico {
+  float: left;
+  width: 400px;
+}
+
+.social-ico ul {
+  margin: 0;
+  padding-left: 121px;
+}
+.academy-lable {
+  position: relative;
+  float: right;
+  width: 199px;
+  padding-top: 1px;
+  padding-right: 101px;
+}
+.copyright::after{
+  content: "";
+  position: absolute;
+  width: 114px;
+  height: 43px;
+  background-image: url(../img/sprite-sedona.png);
+  background-position: -8px -860px;
+  top: 1px;
+  right: 104px;
+}
+.copyright {
+  font-weight: normal;
+  padding-top:8px;
+  padding-right: 121px;
+  display: inline-block;
+  vertical-align: bottom;
+  min-height: 40px;
+}
+
+.copyright:hover::after {
+  background-position: -8px -919px;
+}
+.copyright:active::after{
+  background-position: -8px -978px;
+}
+
+/* catalog */
+
+.header-result {
+  padding-left: 72px;
+  padding-right: 73px;
+  padding-top: 1px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.infrastructure {
+  float: left;
+  width: 256px;
+}
+
+.filter {
+  display: block;
+  min-height: 191px;
+  padding-top: 27px;
+  background: url(../img/filter-background.jpg) no-repeat;
+  color: #fff;
+  text-align: left;
+  padding-left: 71px;
+  padding-right: 73px;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  background-color:#000;
+  color: #fff;
+}
+
+.filter label {
+  font-weight: normal;
+}
+
+.filter-cost {
+  float: right;
+  width: 317px;
+}
+
+.filter-rage-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: -9px;
+}
+
+.filter-cost-range {
+  height: 28px;
+  margin-bottom: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  font-size: 0;
+  position: relative;
+  padding-top: 4px;
+}
+
+.filter-cost-range::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 22px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+}
+
+.filter-cost-range label {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 21px;
+  vertical-align: top;
+}
+
+.filter-cost-range .min-price, .filter-cost-range .max-price {
+  width: 81px;
+  padding-left: 65px;
+}
+
+.filter-cost-range input {
+  width: 50px;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  background: none;
+  border: none;
+}
+
+.switch {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.switch .scale {
+  height: 2px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.switch .bar {
+  width: 80%;
+  height: 2px;
+  background: #ffffff;
+}
+
+.switch-range {
+  width: 4px;
+  height: 4px;
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
+  position: absolute;
+  top: -9px;
+}
+
+.switch-range:hover {
+  background: #1c4f80;
+}
+.switch-min {
+  left: 0;
+}
+
+.switch-max {
+  left: 80%;
+}
+
+.filter-btn {
+  display: block;
+  margin: 0 85px;
+  padding: 6px 34px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  color: #000000;
+  background: #ffffff;
+}
+
+
+/*checkbox*/
+
+.filter-item {
+  padding-top: 24px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.filter-item label {
+  padding-left: 41px;
+  position: relative;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+input[type="checkbox"]+label span {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  margin-left: -30px;
+  padding-left: 15px;
+  background: url(../img/checkbox.png) left top no-repeat;
+  position: absolute;
+  margin-left: -42px;
+}
+
+input[type="checkbox"]:checked+label span {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  margin-left: -42px;
+  background: url(../img/checked.png)left top no-repeat;
+  cursor: pointer;
+  padding-left: 15px;
+}
+input[type="checkbox"]:disabled+label span {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  margin-left: -30px;
+  padding-left: 15px;
+  background: url(../img/checkbox.png) left top no-repeat;
+  position: absolute;
+  margin-left: -42px;
+  opacity: 0.5;
+}
+
+input[type="checkbox"]:checked:disabled+label span {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  margin-left: -42px;
+  background: url(../img/checked.png)left top no-repeat;
+  cursor: pointer;
+  padding-left: 15px;
+  opacity: 0.5;
+}
+
+
+
+
+/*строка сортировки найденого*/
+
+.header-result h2, .sort, .sort-type {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sort {
+  padding-top: 21px;
+  padding-left: 44px;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+  margin-right: 6px;
+  color: #000;
+}
+
+.sort-type {
+  padding-top: 21px;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+.sort-type a {
+  margin-left: 30px;
+  color: #c6c6c6;
+  border-bottom: 1px dotted #81b3d2;
+}
+.sort-type a:hover{
+  color: #81b3d2;
+}
+.sort-type a:active{
+  color: #000000;
+  border-bottom: none;
+}
+
+.sort-type .sort-active {
+  color: #81b3d2;
+  border-bottom: none;
+}
+
+.sort-arrow {
+  float: right;
+  width: 34px;
+  height: 25px;
+  padding-top: 22px;
+}
+
+.sort-arrow-up {
+  display: inline-block;
+  vertical-align: top;
+  width: 15px;
+  height: 15px;
+  background-image: url(../img/sprite-sedona.png);
+  background-position: -10px -506px;
+}
+
+.sort-arrow-up:hover {
+  background-position: -10px -566px;
+}
+.sort-arrow-up:active{
+  background-position: -10px -596px;
+}
+
+.sort-arrow-down {
+  display: inline-block;
+  vertical-align: top;
+  width: 15px;
+  height: 15px;
+  background-image: url(../img/sprite-sedona.png);
+  background-position: -5px -411px;
+}
+
+.sort-arrow-down:hover {
+  background-position: -5px -411px;
+}
+.sort-arrow-down:active{
+  background-position: -5px -411px;
+}
+
+.type-house {
+  float: left;
+}
+
+.photo-hotel {
+  float: left;
+  padding-right: 30px;
+}
+.photo-hotel a{
+  width: 135px;
+  height: 90px;
+}
+
+.hotel-rating {
+  width: 115px;
+  font-weight: normal;
+  float: right;
+}
+
+.rating-stars .star {
+  display: inline-block;
+  vertical-align: top;
+  width: 23px;
+  height: 17px;
+  background-image: url(../img/star.png);
+  background-repeat: no-repeat;
+  float: right;
+  ;
+}
+
+.rating-stars {
+  margin-top: -1px;
+  margin-bottom: 64px;
+}
+
+.rating {
+  display: block;
+  text-align: center;
+  width: 110px;
+  height: 27px;
+  background-color: #f2f2f2;
+}
+
+.result {
+  text-align: left;
+}
+
+.result-content {
+  padding-left: 72px;
+  padding-right: 66px;
+  padding-top: 30px;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.result-content h2 {
+  line-height: 26px;
+  margin-top: -6px;
+  letter-spacing: 0.2px;
+}
+
+.result-content h2:hover {
+  color: #81b3d2;
+}
+.result-content h2:active {
+  color: #b2b2b2;
+}
+
+.result-left-column {
+  width: 900px;
+  float: left;
+}
+.result-left-column h2{
+margin-left: 165px;
+}
+
+.type-apartment {
+  display: inline-block;
+  vertical-align: top;
+  width: 110px;
+}
+
+.result-cost {
+  display: inline-block;
+  vertical-align: top;
+  width: 142px;
+  padding-left: 3px;
+}
+
+.info-house {
+  margin-top: -10px;
+  padding-bottom: 15px;
+  line-height: 21px;
+  font-weight: normal;
+  margin-left: 165px;
+}
+
+.read-more {
+  display: inline-block;
+  vertical-align: top;
+  width: 110px;
+  height: 25px;
+  text-align: center;
+  background-color: #81b3d2;
+  margin-right: 3px;
+  padding-top: 2px;
+}
+
+.read-more:hover {
+  background-color: #669ec0;
+}
+.read-more:active {
+  background-color: #5496bd;
+  color:#88b6d1;
+}
+
+.additional-menu a {
+  color: #fff;
+  line-height: 21px;
+}
+
+.additional-menu{
+  margin-left: 165px;
+}
+
+.reserve {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 2px;
+  width: 142px;
+  height: 25px;
+  text-align: center;
+  background-color: #766357;
+}
+
+.reserve:hover {
+  background-color: #604e43;
+}
+.reserve:active {
+  background-color: #503e33;
+  color: #81746d;
+}
