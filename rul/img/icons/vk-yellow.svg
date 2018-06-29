@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.038 22.037">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffe200;
+      }
+
+      .cls-2 {
+        fill: #0d0d0d;
+        font-size: 12px;
+        font-family: FontAwesome;
+      }
+    </style>
+  </defs>
+  <g id="Group_1195" data-name="Group 1195" transform="translate(-1170 -18527)">
+    <rect id="Rectangle_606" data-name="Rectangle 606" class="cls-1" width="22.038" height="22.038" rx="5" transform="translate(1170 18527)"/>
+    <text id="_" data-name="" class="cls-2" transform="translate(1174 18542)"><tspan x="0" y="0"></tspan></text>
+  </g>
+</svg>
