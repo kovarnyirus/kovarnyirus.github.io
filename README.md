@@ -1,1 +1,0 @@
-# kovarnyirus.github.io

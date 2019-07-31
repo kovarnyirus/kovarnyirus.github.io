@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'hacked';
+  src: url("../fonts/hacked/HACKED.eot");
+  src: url("../fonts/hacked/hacked.ttf");
+  src: url("../fonts/hacked/HACKED.woff");
+  src: url("../fonts/hacked/HACKED.woff2");
+}
+
+@font-face {
+  font-family: 'bebas';
+  src: url("../fonts/bebas/BebasNeue Regular.otf");
+  src: url("../fonts/bebas/BebasNeueRegular.eot");
+  src: url("../fonts/bebas/BebasNeueRegular.woff");
+  src: url("../fonts/bebas/BebasNeueRegular.woff2");
+}
+
+body {
+  background-color: #00011D;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+  height: 100vh;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.logo-wrapper {
+  padding-top: 52px;
+  margin-bottom: 49px;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 115%;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+.place {
+  font-family: HACKED;
+  font-size: 40px;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin-bottom: 36px;
+}
+
+.description-wrapper {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 100px #4BAFF8;
+  padding-top: 13px;
+  padding-bottom: 7px;
+  margin-bottom: 49px;
+}
+
+.description {
+  font-family: 'bebas';
+  font-size: 28px;
+  line-height: 115%;
+  color: #4BAFF8;
+  text-align: center;
+  font-weight: 600;
+}
+
+.take-promo {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 115%;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 130%;
+  text-decoration: none;
+  display: block;
+  background: linear-gradient(171.11deg, #4CE147 -30.13%, #0CA808 106.76%);
+  border-radius: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  box-shadow: 0px 14px 40px rgba(51, 203, 46, 0.5);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.btn:before {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  content: '';
+  top: 50%;
+  left: 37px;
+  transform: translateY(-50%);
+  background-image: url("../img/whatsapp.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btn:hover{
+  background: linear-gradient(171.11deg, #319b2c -30.13%, #0ccf08 106.76%);
+  box-shadow: 0px 14px 40px rgba(44, 164, 42, 0.5);
+}
+
+
+.btn:active{
+  background: linear-gradient(171.11deg, #42dd3d -30.13%, #0c7a08 106.76%);
+  box-shadow: 0px 14px 40px rgba(45, 188, 43, 0.5);
+}
