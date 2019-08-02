@@ -1,0 +1,247 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Chinese Rocks';
+  src: url("../fonts/ChineseRocks.otf");
+}
+
+@font-face {
+  font-family: 'Deadpool Movie';
+  src: url("../fonts/DeadpoolMovie.otf");
+
+}
+
+body {
+  background-color: #00011D;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+  height: 100vh;
+  padding-left: 9%;
+  padding-right: 30px;
+  padding-top: 44px;
+  position: relative;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 450px;
+  z-index: 10;
+  position: relative;
+}
+
+.top-text-wrapper {
+  background-image: url("../img/top-text-bg.png");
+  width: 270px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 44px;
+  font-family: Chinese Rocks;
+  font-size: 30px;
+  line-height: 115%;
+  text-align: center;
+  background-color: white;
+  color: white;
+  margin-bottom: 15px;
+  /*margin-left: 100px;*/
+
+}
+
+.main-text-wrap {
+  max-width: 434px;
+  max-height: 292px;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/text-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-text-wrap__top {
+  font-family: Chinese Rocks;
+  font-size: 37px;
+  line-height: 100%;
+  text-align: center;
+  color: #4B3011;
+  text-shadow: 2px 2px 0px #FFFFFF;
+  margin-top: 40px;
+}
+
+.title {
+  font-family: Deadpool Movie;
+  font-size: 63px;
+  line-height: 1;
+  /* or 67px */
+  text-align: center;
+
+  color: #4B3011;
+  margin: 0;
+
+  text-shadow: 3px 3px 0px #FFFFFF;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.description {
+  background-image: url("../img/bottom-text-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 345px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4B3011;
+  margin-top: 20px;
+  /*margin-left: 50px;*/
+  margin-bottom: 40px;
+  font-family: Chinese Rocks;
+  font-size: 31px;
+  line-height: 115%;
+  text-align: center;
+  color: #4B3011;
+
+}
+
+.take-promo {
+  font-family: Chinese Rocks;
+  font-size: 16px;
+  line-height: 115%;
+  /* or 18px */
+
+  color: #FFFFFF;
+  /*margin-left: 100px;*/
+  margin-bottom: 20px;
+}
+
+.btn-wrapper{
+  max-width: 261px;
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 130%;
+  text-decoration: none;
+  display: block;
+  background: linear-gradient(171.11deg, #4CE147 -30.13%, #0CA808 106.76%);
+  border-radius: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  box-shadow: 0px 14px 40px rgba(51, 203, 46, 0.5);
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 10px;
+  box-sizing: border-box;
+  max-width: 261px;
+  /*margin-left: 70px;*/
+  font-family: Chinese Rocks;
+  font-size: 19px;
+  line-height: 130%;
+  /* identical to box height, or 25px */
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.btn:before {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  content: '';
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  background-image: url("../img/whatsapp.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btn:hover {
+  background: linear-gradient(171.11deg, #319b2c -30.13%, #0ccf08 106.76%);
+  box-shadow: 0px 14px 40px rgba(44, 164, 42, 0.5);
+}
+
+
+.btn:active {
+  background: linear-gradient(171.11deg, #42dd3d -30.13%, #0c7a08 106.76%);
+  box-shadow: 0px 14px 40px rgba(45, 188, 43, 0.5);
+}
+
+
+@media (max-width: 550px) {
+  .page-wrapper {
+    background-image: url("../img/mobile-bg.png");
+  }
+  .top-text-wrapper {
+    font-size: 25px;
+    padding-top: 10px;
+    min-height: 20px;
+    padding-bottom: 10px;
+  }
+
+  .main-text-wrap__top {
+    font-size: 24px;
+    margin-top: 10px;
+
+  }
+
+  .main-text-wrap {
+    min-height: 194px;
+  }
+
+  .title {
+    margin-top: 15px;
+    font-size: 39px;
+  }
+
+  .description {
+    width: 280px;
+    font-size: 20px;
+    line-height: 115%;
+    /* or 23px */
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .take-promo {
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 16px */
+    text-align: center;
+  }
+  .btn-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .page-wrapper:before {
+    position: absolute;
+    display: block;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url("../img/bottom-line.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+  }
+}
